@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+}
+
+form input[type="text"] {
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus {
+    outline: none;
+    border-color: black;
+}
